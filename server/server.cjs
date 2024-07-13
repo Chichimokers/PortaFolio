@@ -8,7 +8,7 @@ const port =  3000;
 
 app.use(express.static(path.join(__dirname, '../dist')));
 
-app.use("/public",express.static(path.join(__dirname, '/dist')));
+app.use("/public",express.static(path.join(__dirname, '/public')));
 console.log()
 
 app.listen(port, () => {
