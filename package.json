@@ -3,10 +3,10 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "node init && astro dev",
+    "start": "node init && astro dev",
     "host": "node server/server.cjs",
-    "build": "astro check && astro build",
+    "build": "node init && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
